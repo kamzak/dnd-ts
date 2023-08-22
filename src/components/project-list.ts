@@ -70,7 +70,7 @@ export class ProjectList
 
   private renderProjects() {
     const listEl = document.getElementById(
-      `${this.type}-projcets-list`
+      `${this.type}-projects-list`
     )! as HTMLUListElement;
     listEl.innerHTML = "";
     for (const prjItem of this.assignedProjects) {
